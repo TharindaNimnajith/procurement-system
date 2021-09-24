@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Pussalla App",
+    "slug": "pussalla-app",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": ["android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.sliit.pussallaapp",
+      "versionCode": 1
+    }
+  }
+}
